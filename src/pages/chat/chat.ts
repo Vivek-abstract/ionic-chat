@@ -21,7 +21,7 @@ export class ChatPage {
 
   username: string = '';
   message: string = '';
-  messages: string[] = [];
+  messages: Object[] = [];
   chatSubscription;
 
   constructor(public db: AngularFireDatabase, public navCtrl: NavController, public navParams: NavParams) {
